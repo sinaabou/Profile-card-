@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+*{
+    box-sizing: border-box;
+}
+   html{
+    height: 100%;
+    width: 100%;
+    max-width: 1440px;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position:left top,right bottom;
+    background-position: -450px -600px,450px 200px;
+    background-repeat: no-repeat,no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .container{
+        border-radius: 9px;
+        background-color: white;
+        height: 270px;
+        width: 250px;
+
+    }
+    #topimg{
+        background: url(images/bg-pattern-card.svg) center no-repeat;
+        
+        border-radius: 9px 9px 0px 0px;
+        width: 100%;
+        height: 30%;
+        padding: 40px 90px;
+    }
+    
+    img{
+        width: 80px;
+        border-radius: 40px;
+        border: 4px solid white;
+    }
+    
+    #perimg{
+        margin: 50px 50px 40px 50px;
+        text-align: center;
+        
+    }
+    
+    .name{
+        font-family:"Kumbh Sans", sans-serif;
+        display: inline-block;
+/*        font-size:15px;*/
+        font-weight: bold;
+    }
+    .age{
+        margin-left: 9px;
+        font-family: "Kumbh Sans", sans-serif;
+        color: gray;
+    }
+
+#city{
+    font-family: "Kumbh Sans", sans-serif;
+    color: gray;
+    font-size: 14px;
+    
+}
+
+.number{
+    font-family: "Kumbh Sans", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+#footer{
+    border-top: 1px solid gray;
+     
+}
+.content{
+    font-family: "Kumbh Sans", sans-serif;
+    color: gray;
+    font-size: 11px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+@media only screen and (max-width:375px){
+
+    html{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position:left top,right bottom;
+    background-position: -800px -600px,150px 120px;
+    background-repeat: no-repeat,no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+    
+}
